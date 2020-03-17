@@ -3,6 +3,7 @@
 //
 
 #include "die.h"
+#include <time.h>
 
 Die :: Die(int openingNumberOfSides, int openingStartingValue, int openingIncrement, std::string openingColor, std::string openingName) {
     numberOfSides = openingNumberOfSides;
@@ -74,3 +75,4 @@ void Die::setName(std::string newName) {
 std::string Die::getName() {
     return name;
 }
+
