@@ -75,4 +75,3 @@ void Die::setName(std::string newName) {
 std::string Die::getName() {
     return name;
 }
-
