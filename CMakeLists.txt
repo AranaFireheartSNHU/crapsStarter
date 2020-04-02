@@ -3,10 +3,12 @@ project(crapsStarter)
 set(CMAKE_CXX_STANDARD 17)
 
 # Tell cmake where Qt is located
-set(CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.14.1\\mingw73_64\\")
-set(Qt5_DIR "C:\\Qt\\5.14.1\\mingw73_64\\lib\\cmake\\Qt5")
-#set(QT_INCLUDES "C:\\Qt\\5.14.1\\mingw73_64\\include")
-#MESSAGE("QT_INCLUDES: ${QT_INCLUDES}")
+set(Qt5_DIR "/usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5")
+set(QT_INCLUDES "/usr/local/Cellar/qt/5.14.1/include")
+#set(CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.14.1\\mingw73_64\\")
+#set(Qt5_DIR "C:\\Qt\\5.14.1\\mingw73_64\\lib\\cmake\\Qt5")
+set(QT_INCLUDES "C:\\Qt\\5.14.1\\mingw73_64\\include")
+MESSAGE("QT_INCLUDES: ${QT_INCLUDES}")
 
 # Find includes in corresponding build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
