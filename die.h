@@ -9,6 +9,7 @@
 // Created by Arana Fireheart on 1/30/20.
 //
 #include <string>
+#include <ctime>
 
 class Die {
 protected:
